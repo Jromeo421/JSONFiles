@@ -21,7 +21,7 @@ public class CalculatorView extends JFrame{
         
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setSize(600, 200);
-        
+                
         calcPanel.add(firstInteger);
         calcPanel.add(additionLabel);
         calcPanel.add(secondInteger);

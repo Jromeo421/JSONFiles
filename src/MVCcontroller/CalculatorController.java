@@ -15,8 +15,8 @@ import java.awt.event.ActionListener;
 //the controller coordinates the communication between the View and the Model
 public class CalculatorController {
     
-private CalculatorView theView;
-private CalculatorModel theModel;
+private final CalculatorView theView;
+private final CalculatorModel theModel;
 
 public CalculatorController(CalculatorView theView, CalculatorModel theModel){
     
@@ -30,6 +30,7 @@ public CalculatorController(CalculatorView theView, CalculatorModel theModel){
 
     class CalculateListener implements ActionListener{
         
+        @Override
         public void actionPerformed(ActionEvent e){
             
             int firstInteger, secondInteger = 0;
