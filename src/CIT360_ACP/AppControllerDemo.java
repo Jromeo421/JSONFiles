@@ -10,12 +10,12 @@ import java.util.Scanner;
  *
  * @author JRome
  */
-public class AppControllerMarvel {
+public class AppControllerDemo {
     
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
-        System.out.println("Please type title of Marvel Movie");
-        AppControllerMarvel app = new AppControllerMarvel();
+        System.out.println("What information would you like to see? USER, ACCOUNT, SALARY ");
+        AppController app = new AppController();
         app.dispatchRequest(input.next());
     }
     
