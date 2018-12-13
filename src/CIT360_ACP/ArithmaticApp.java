@@ -11,7 +11,6 @@ public class ArithmaticApp {
         // TODO code application logic here
         try{
             Scanner input = new Scanner(System.in);
-            ControIt arith = new ControIt();
             Integer uIn1;
             Integer uIn2;
             String operand;
