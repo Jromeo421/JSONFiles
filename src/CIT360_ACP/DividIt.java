@@ -7,15 +7,12 @@ package CIT360_ACP;
 
 /**
  *
- * @author JRome
+ * @author J.J. Hugh
  */
-public class SalaryView {
-
-    /**
-     *
-     */
-    public void show() {
-        
-        System.out.println("Accounting has determined that you make $65,000 per calendar year.");
+public class DividIt implements doArithmatics{
+            @Override
+    public void execute(Integer uIn1, Integer uIn2){
+        Integer dividIt = uIn1 / uIn2;
+        System.out.println(dividIt);
     }
 }

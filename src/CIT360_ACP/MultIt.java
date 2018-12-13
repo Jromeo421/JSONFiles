@@ -7,12 +7,12 @@ package CIT360_ACP;
 
 /**
  *
- * @author JRome
+ * @author J.J Hugh
  */
-public class AccountView {
-
-    public void show() {
-        
-        System.out.println("The account shows that you have met current goals.");
+public class MultIt implements doArithmatics {
+        @Override
+    public void execute(Integer uIn1, Integer uIn2){
+        Integer multIt = uIn1 * uIn2;
+        System.out.println(multIt);
     }
 }
