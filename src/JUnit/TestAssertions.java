@@ -1,23 +1,20 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package JUnit;
 
 import static org.junit.Assert.*;
+import org.junit.Test;
 
 /**
  *
- * @author JRome
+ * @author JJ Hugh
  */
 class TestAssertions {
     
+    @Test
     public void  testAssertions(){
         
         //Define the Data within the test
-        String strg1 = "Butter Peacan Pie";
-        String strg2 = "Butter Peacan Pie";
+        String strg1 = new String("Butter Peacan Pie");
+        String strg2 = new String ("Butter Peacan Pie");
         String strg3 = null;
         String strg4 = "Oreo Reeses Ice Cream";
         String strg5 = "Oreo Reeses Ice Cream";
