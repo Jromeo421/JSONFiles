@@ -13,8 +13,8 @@ class TestAssertions {
     public void  testAssertions(){
         
         //Define the Data within the test
-        String strg1 = new String("Butter Peacan Pie");
-        String strg2 = new String ("Butter Peacan Pie");
+        String strg1 = "Butter Peacan Pie";
+        String strg2 = "Butter Peacan Pie";
         String strg3 = null;
         String strg4 = "Oreo Reeses Ice Cream";
         String strg5 = "Oreo Reeses Ice Cream";
